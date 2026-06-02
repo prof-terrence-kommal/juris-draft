@@ -1,0 +1,17 @@
+name: Jurisdiction profile
+description: Propose or improve a jurisdiction profile
+title: "jurisdiction: "
+labels: [jurisdiction, good first issue]
+body:
+  - type: input
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction
+      placeholder: South Africa, Kenya, England and Wales
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Drafting conventions or cautions
+      description: Add terminology, format preferences, or legal-review cautions.

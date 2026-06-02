@@ -1,0 +1,17 @@
+name: Drafting recipe
+description: Suggest a new legal drafting recipe
+title: "recipe: "
+labels: [recipe, enhancement]
+body:
+  - type: input
+    id: recipe
+    attributes:
+      label: Recipe name
+      placeholder: board-resolution, privacy-notice, letter-of-demand
+    validations:
+      required: true
+  - type: textarea
+    id: structure
+    attributes:
+      label: Suggested structure
+      description: Outline the sections and safety checks the recipe should include.

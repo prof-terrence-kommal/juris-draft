@@ -1,0 +1,15 @@
+<svg width="1120" height="520" viewBox="0 0 1120 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Juris Draft terminal demo">
+  <rect width="1120" height="520" rx="18" fill="#101418"/>
+  <rect x="0" y="0" width="1120" height="54" rx="18" fill="#1f252c"/>
+  <circle cx="30" cy="27" r="8" fill="#ff5f57"/>
+  <circle cx="58" cy="27" r="8" fill="#ffbd2e"/>
+  <circle cx="86" cy="27" r="8" fill="#28c840"/>
+  <text x="28" y="92" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22" fill="#e6edf3">$ npm run draft -- --type demand-letter --jurisdiction ZA --tone assertive --facts examples/late-payment.za.json --output outputs/late-payment.za.md</text>
+  <text x="28" y="144" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22" fill="#8ddb8c">Created draft packet: outputs/late-payment.za.md</text>
+  <text x="28" y="204" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22" fill="#ffdf80">Review warnings:</text>
+  <text x="28" y="246" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" fill="#c9d1d9">- Jurisdiction profile ZA is marked experimental; human legal review is required.</text>
+  <text x="28" y="288" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" fill="#c9d1d9">- Confirm whether the matter falls under statute, contract, delict, labour, consumer, credit, or constitutional law.</text>
+  <text x="28" y="330" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" fill="#c9d1d9">- Check prescription, jurisdiction, and forum before sending.</text>
+  <text x="28" y="410" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22" fill="#e6edf3">$ juris-draft list jurisdictions</text>
+  <text x="28" y="458" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22" fill="#8ddb8c">GENERIC-COMMON-LAW   UK-EW   ZA</text>
+</svg>

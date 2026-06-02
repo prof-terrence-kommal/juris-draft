@@ -1,0 +1,17 @@
+name: Bug report
+description: Report a reproducible problem in Juris Draft
+title: "bug: "
+labels: [bug]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the issue and expected behaviour.
+    validations:
+      required: true
+  - type: input
+    id: command
+    attributes:
+      label: Command or input
+      placeholder: npm run draft -- --type demand-letter ...
