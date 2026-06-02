@@ -3,7 +3,7 @@
 > Draft type: **demand-letter**  
 > Jurisdiction: **South Africa**  
 > Tone: **Assertive**  
-> Generated: 2026-06-02T20:47:46.454Z
+> Generated: 2026-06-02T20:54:38.150Z
 
 ## Human Review Notice
 
