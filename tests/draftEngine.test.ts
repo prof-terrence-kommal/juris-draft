@@ -73,7 +73,7 @@ describe('createDraft', () => {
         factsPath: 'examples/late-payment.za.json',
         rootDir
       })
-    ).toThrow(/Profile not found/);
+    ).toThrow(/Unsupported jurisdiction profile/);
   });
 
   it('throws for unsupported tones', () => {
@@ -85,6 +85,6 @@ describe('createDraft', () => {
         factsPath: 'examples/late-payment.za.json',
         rootDir
       })
-    ).toThrow(/Profile not found/);
+    ).toThrow(/Unsupported tone profile/);
   });
 });
