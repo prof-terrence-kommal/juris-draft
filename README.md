@@ -138,3 +138,20 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and [ROADMAP.md](ROADMAP.md).
 ## License
 
 MIT
+
+## Maintainer workflows
+
+Juris Draft is maintained through public issues, pull requests, release tags, CI checks, and contribution templates.
+
+Current and planned maintainer workflows include:
+
+- triaging jurisdiction-profile contributions;
+- reviewing drafting recipe pull requests;
+- checking generated outputs for human-review warnings;
+- maintaining tests and validation coverage;
+- preparing releases and changelogs;
+- improving dependency hygiene and security posture;
+- keeping the project model-agnostic and provider-neutral.
+
+Contributors are encouraged to open focused issues or pull requests that improve one clear part of the framework.
+
