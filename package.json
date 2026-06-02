@@ -1,0 +1,41 @@
+{
+  "name": "juris-draft",
+  "version": "0.1.0",
+  "description": "Model-agnostic legal drafting infrastructure for jurisdiction-aware, tone-controlled first drafts.",
+  "type": "module",
+  "bin": {
+    "juris-draft": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "draft": "tsx src/cli.ts create",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "legaltech",
+    "legal-drafting",
+    "jurisdiction",
+    "typescript",
+    "cli",
+    "access-to-justice",
+    "law",
+    "open-source"
+  ],
+  "author": "Terrence Kommal",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "js-yaml": "^4.1.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.14.10",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "vitest": "^4.1.8"
+  }
+}
