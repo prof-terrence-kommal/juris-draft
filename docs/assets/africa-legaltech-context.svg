@@ -1,0 +1,33 @@
+<svg width="1100" height="420" viewBox="0 0 1100 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">African and Global South LegalTech Context</title>
+  <desc id="desc">A contextual visual for open LegalTech infrastructure designed from South Africa for African and Global South workflows.</desc>
+
+  <rect width="1100" height="420" rx="26" fill="#022c22"/>
+  <circle cx="910" cy="88" r="145" fill="#14532d" opacity="0.55"/>
+  <circle cx="970" cy="330" r="190" fill="#064e3b" opacity="0.8"/>
+
+  <text x="60" y="82" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="800" fill="#ecfdf5">Open LegalTech for African and Global South contexts</text>
+  <text x="60" y="122" font-family="Inter, Arial, sans-serif" font-size="19" fill="#bbf7d0">Model-agnostic · jurisdiction-aware · human-review-first</text>
+
+  <path d="M800 70 C745 95 715 145 720 205 C725 280 780 330 855 338 C935 346 1000 292 1010 218 C1019 150 975 91 910 72 C870 60 835 58 800 70Z" fill="#bbf7d0" opacity="0.9"/>
+  <path d="M872 275 C884 284 899 294 918 303 C901 320 881 332 856 337 C851 315 858 292 872 275Z" fill="#16a34a"/>
+  <circle cx="885" cy="300" r="9" fill="#ef4444"/>
+  <text x="902" y="306" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#052e16">South Africa</text>
+
+  <rect x="60" y="172" width="300" height="136" rx="18" fill="#064e3b" stroke="#34d399"/>
+  <text x="90" y="214" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">Localisation</text>
+  <text x="90" y="248" font-family="Inter, Arial, sans-serif" font-size="16" fill="#d1fae5">Profiles for jurisdiction,</text>
+  <text x="90" y="272" font-family="Inter, Arial, sans-serif" font-size="16" fill="#d1fae5">terminology, and review notes.</text>
+
+  <rect x="390" y="172" width="300" height="136" rx="18" fill="#064e3b" stroke="#34d399"/>
+  <text x="420" y="214" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">Access</text>
+  <text x="420" y="248" font-family="Inter, Arial, sans-serif" font-size="16" fill="#d1fae5">Open workflows that can run</text>
+  <text x="420" y="272" font-family="Inter, Arial, sans-serif" font-size="16" fill="#d1fae5">with cloud, local, or hybrid AI.</text>
+
+  <rect x="720" y="172" width="320" height="136" rx="18" fill="#064e3b" stroke="#34d399"/>
+  <text x="750" y="214" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">Human review</text>
+  <text x="750" y="248" font-family="Inter, Arial, sans-serif" font-size="16" fill="#d1fae5">Generated outputs remain</text>
+  <text x="750" y="272" font-family="Inter, Arial, sans-serif" font-size="16" fill="#d1fae5">checkable, limited, and reviewable.</text>
+
+  <text x="60" y="365" font-family="Inter, Arial, sans-serif" font-size="16" fill="#a7f3d0">Juris Draft starts from South African LegalTech needs while remaining adaptable across jurisdictions.</text>
+</svg>

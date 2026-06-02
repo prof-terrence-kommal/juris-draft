@@ -1,0 +1,39 @@
+<svg width="1100" height="620" viewBox="0 0 1100 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Juris Draft South African Legal Source Assistant Demo</title>
+  <desc id="desc">A terminal-style preview of the Juris Draft South African legal source assistant output.</desc>
+
+  <rect width="1100" height="620" rx="28" fill="#0f172a"/>
+  <rect x="36" y="36" width="1028" height="548" rx="20" fill="#111827" stroke="#334155" stroke-width="2"/>
+
+  <circle cx="70" cy="70" r="8" fill="#ef4444"/>
+  <circle cx="98" cy="70" r="8" fill="#f59e0b"/>
+  <circle cx="126" cy="70" r="8" fill="#22c55e"/>
+
+  <text x="56" y="118" font-family="Consolas, Menlo, monospace" font-size="22" fill="#93c5fd">$ npm run sources:demo</text>
+
+  <text x="56" y="168" font-family="Consolas, Menlo, monospace" font-size="26" font-weight="700" fill="#f8fafc">South African Legal Source Assistant</text>
+
+  <text x="56" y="212" font-family="Consolas, Menlo, monospace" font-size="18" fill="#cbd5e1">Jurisdiction: ZA</text>
+  <text x="56" y="244" font-family="Consolas, Menlo, monospace" font-size="18" fill="#cbd5e1">Query: mora interest late payment demand letter</text>
+
+  <rect x="56" y="278" width="988" height="82" rx="12" fill="#1e293b" stroke="#475569"/>
+  <text x="80" y="312" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Public research starting points</text>
+  <text x="80" y="342" font-family="Inter, Arial, sans-serif" font-size="17" fill="#cbd5e1">SAFLII · AfricanLII · LawLibrary via non-scraping site-search links</text>
+
+  <rect x="56" y="384" width="300" height="128" rx="14" fill="#0f766e"/>
+  <text x="82" y="424" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" fill="#ffffff">Source links</text>
+  <text x="82" y="458" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ccfbf1">Generate public legal</text>
+  <text x="82" y="482" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ccfbf1">research starting points.</text>
+
+  <rect x="400" y="384" width="300" height="128" rx="14" fill="#1d4ed8"/>
+  <text x="426" y="424" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" fill="#ffffff">Human review</text>
+  <text x="426" y="458" font-family="Inter, Arial, sans-serif" font-size="16" fill="#dbeafe">Check authority, date,</text>
+  <text x="426" y="482" font-family="Inter, Arial, sans-serif" font-size="16" fill="#dbeafe">hierarchy, and currency.</text>
+
+  <rect x="744" y="384" width="300" height="128" rx="14" fill="#7c2d12"/>
+  <text x="770" y="424" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" fill="#ffffff">Safety first</text>
+  <text x="770" y="458" font-family="Inter, Arial, sans-serif" font-size="16" fill="#fed7aa">No scraping. No legal</text>
+  <text x="770" y="482" font-family="Inter, Arial, sans-serif" font-size="16" fill="#fed7aa">advice. Human checked.</text>
+
+  <text x="56" y="552" font-family="Inter, Arial, sans-serif" font-size="16" fill="#94a3b8">Juris Draft · Model-agnostic LegalTech infrastructure for African and Global South workflows</text>
+</svg>

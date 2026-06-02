@@ -1,5 +1,10 @@
 # Juris Draft
 
+<p align="center">
+  <img src="docs/assets/africa-legaltech-context.svg" alt="Open LegalTech for African and Global South contexts" width="100%">
+</p>
+
+
 **Model-agnostic legal drafting infrastructure for jurisdiction-aware, tone-controlled first drafts.**
 
 Juris Draft helps lawyers, legal technologists, law students, and access-to-justice builders create structured drafting packets using explicit jurisdiction, tone, document type, and human-review controls.
@@ -27,6 +32,26 @@ Most legal drafting tools are thin wrappers around a single AI provider. Juris D
 | DOCX export | Planned |
 | Optional model adapters | Planned |
 
+## South African Legal Source Assistant
+
+Juris Draft includes a non-scraping South African legal source assistant for public legal research workflows.
+
+The source assistant generates research links for public legal-information sources and adds a human-review checklist for checking court hierarchy, date, authority, source currency, and legal-advice limitations. It does not fetch, scrape, summarise, or verify legal sources automatically.
+
+<p align="center">
+  <img src="docs/assets/za-source-assistant-demo.svg" alt="South African Legal Source Assistant demo" width="100%">
+</p>
+
+Example command:
+
+    npm run sources:demo
+
+Or write to a file:
+
+    npm run sources -- --jurisdiction ZA --query "mora interest late payment demand letter" --output outputs/za-legal-source-assistant.md
+
+The current source assistant supports South Africa (ZA) and links to public research starting points for SAFLII, AfricanLII, and LawLibrary through non-scraping site-search links.
+
 ## Quick start
 
 ```bash
@@ -52,6 +77,10 @@ npm run draft -- \
   --facts examples/late-payment.za.json \
   --output outputs/late-payment.za.md
 ```
+
+<p align="center">
+  <img src="docs/assets/juris-draft-workflow.svg" alt="Juris Draft workflow" width="100%">
+</p>
 
 ## Architecture
 
