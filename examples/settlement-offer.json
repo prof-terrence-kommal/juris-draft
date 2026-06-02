@@ -1,0 +1,22 @@
+{
+  "title": "Settlement Proposal - Service Dispute",
+  "parties": [
+    { "name": "Northwind Services", "role": "Service provider" },
+    { "name": "Blue Acre Foods", "role": "Customer" }
+  ],
+  "background": "The parties dispute whether milestone two was delivered according to the implementation schedule. Both parties want to avoid escalation and preserve a possible future relationship.",
+  "objectives": [
+    "Propose a practical settlement structure",
+    "Avoid admissions of liability",
+    "Identify terms requiring written agreement"
+  ],
+  "keyDates": [
+    { "label": "Milestone two due", "date": "1 May 2026" },
+    { "label": "Dispute raised", "date": "12 May 2026" }
+  ],
+  "requestedOutcome": "A without-prejudice-style settlement proposal subject to jurisdiction review.",
+  "customClauses": [
+    "Include a placeholder for confidentiality.",
+    "Include a placeholder for mutual release."
+  ]
+}

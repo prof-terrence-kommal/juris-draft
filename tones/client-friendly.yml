@@ -1,0 +1,11 @@
+id: client-friendly
+name: Client-friendly
+description: A helpful advisory voice for explaining a draft or next step to a client in accessible terms.
+voiceRules:
+  - Explain the purpose of each section.
+  - Use headings and summary points.
+  - Separate legal assumptions from practical next steps.
+avoid:
+  - Internal legal jargon.
+  - Overly technical citations.
+  - Ambiguous next steps.

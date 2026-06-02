@@ -1,0 +1,11 @@
+id: formal
+name: Formal legal
+description: A precise, professional drafting voice suitable for legal correspondence and review by lawyers.
+voiceRules:
+  - Use complete sentences and conventional legal structure.
+  - Prefer clear obligations, defined positions, and neutral phrasing.
+  - Flag assumptions instead of overstating certainty.
+avoid:
+  - Slang or overly casual phrasing.
+  - Threats unsupported by the supplied facts.
+  - Unverified legal conclusions.

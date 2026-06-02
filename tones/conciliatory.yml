@@ -1,0 +1,11 @@
+id: conciliatory
+name: Conciliatory
+description: A collaborative voice for settlement, negotiation, and relationship-preserving correspondence.
+voiceRules:
+  - Use constructive language.
+  - Acknowledge the possibility of misunderstanding.
+  - Emphasise practical resolution.
+avoid:
+  - Blame-heavy framing.
+  - Unnecessary escalation.
+  - Absolute statements where facts are incomplete.

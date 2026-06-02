@@ -1,0 +1,23 @@
+{
+  "title": "Late Payment Demand Letter - ExampleCo v Sample Retail",
+  "parties": [
+    { "name": "ExampleCo (Pty) Ltd", "role": "Creditor / service provider" },
+    { "name": "Sample Retail CC", "role": "Debtor / customer" }
+  ],
+  "background": "ExampleCo supplied software implementation services to Sample Retail under a signed statement of work. Invoice INV-1042 was issued for R48,500 and remains unpaid despite two follow-up emails.",
+  "objectives": [
+    "Request payment of the outstanding invoice",
+    "Preserve the commercial relationship if payment is made promptly",
+    "Create a clear record of demand before further steps are considered"
+  ],
+  "keyDates": [
+    { "label": "Invoice issued", "date": "15 April 2026" },
+    { "label": "Payment due", "date": "30 April 2026" },
+    { "label": "Second follow-up", "date": "20 May 2026" }
+  ],
+  "requestedOutcome": "Payment of R48,500 within seven calendar days, or a written proposal for immediate resolution.",
+  "customClauses": [
+    "Keep the tone firm but commercially respectful.",
+    "Do not threaten litigation directly; reserve rights instead."
+  ]
+}

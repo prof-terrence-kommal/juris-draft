@@ -1,0 +1,11 @@
+id: assertive
+name: Assertive
+description: A firm and controlled voice for correspondence where the drafter needs to preserve rights and request action.
+voiceRules:
+  - State the issue and requested action clearly.
+  - Use firm deadlines where facts support them.
+  - Preserve rights without making unnecessary threats.
+avoid:
+  - Hostile language.
+  - Unsupported allegations.
+  - Overpromising remedies.

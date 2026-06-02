@@ -1,0 +1,11 @@
+id: plain-english
+name: Plain English
+description: A clear, accessible voice designed to make legal content understandable without losing structure.
+voiceRules:
+  - Use short paragraphs and direct language.
+  - Explain legal positions in ordinary language.
+  - Keep defined terms to a minimum.
+avoid:
+  - Dense legalese.
+  - Latin phrases unless necessary.
+  - Long nested sentences.

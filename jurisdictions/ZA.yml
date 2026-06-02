@@ -1,0 +1,16 @@
+id: ZA
+name: South Africa
+legalSystem: Mixed legal system influenced by Roman-Dutch law, English common law, statute, and constitutional supremacy
+status: experimental
+disclaimer: This packet is a structured first draft for South African legal review. It is not legal advice and must be reviewed by a qualified legal professional before use.
+terminology:
+  lawyer: attorney
+  court: High Court or Magistrates' Court, depending on context
+  damages: damages
+draftingPreferences:
+  spelling: en-ZA
+  dateFormat: DD Month YYYY
+  citationStyle: neutral descriptive references unless authority is supplied
+  riskFlags:
+    - Confirm whether the matter falls under statute, contract, delict, labour, consumer, credit, or constitutional law.
+    - Check prescription, jurisdiction, and forum before sending.

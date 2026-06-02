@@ -1,0 +1,20 @@
+{
+  "title": "Mutual NDA Outline - Product Partnership",
+  "parties": [
+    { "name": "Alpha Labs", "role": "Potential product partner" },
+    { "name": "Beta Systems", "role": "Potential product partner" }
+  ],
+  "background": "The parties intend to exchange technical and commercial information while evaluating a possible product integration.",
+  "objectives": [
+    "Create a mutual confidentiality structure",
+    "Define the permitted purpose",
+    "Flag missing commercial terms for legal review"
+  ],
+  "keyDates": [
+    { "label": "Planned first disclosure", "date": "10 June 2026" }
+  ],
+  "requestedOutcome": "A neutral NDA outline suitable for lawyer review.",
+  "customClauses": [
+    "Include placeholders for governing law and duration."
+  ]
+}

@@ -1,0 +1,16 @@
+id: UK-EW
+name: England and Wales
+legalSystem: Common law system with statutory and equitable principles
+status: experimental
+disclaimer: This packet is a structured first draft for review in England and Wales. It is not legal advice and must be checked by a suitably qualified legal professional.
+terminology:
+  lawyer: solicitor
+  court: County Court or High Court, depending on context
+  damages: damages
+draftingPreferences:
+  spelling: en-GB
+  dateFormat: DD Month YYYY
+  citationStyle: plain English with authority placeholders
+  riskFlags:
+    - Check limitation periods, pre-action protocols, and court rules before use.
+    - Confirm whether consumer, employment, data protection, or regulated-sector rules apply.

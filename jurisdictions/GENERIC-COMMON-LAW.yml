@@ -1,0 +1,15 @@
+id: GENERIC-COMMON-LAW
+name: Generic common-law fallback
+legalSystem: Generic common-law drafting profile for early-stage templates
+status: stub
+disclaimer: This is a generic drafting profile for ideation only. It is not jurisdiction-specific legal advice and must be localised before use.
+terminology:
+  lawyer: lawyer
+  court: court
+  damages: damages
+draftingPreferences:
+  spelling: en
+  dateFormat: YYYY-MM-DD
+  citationStyle: placeholders only
+  riskFlags:
+    - Replace this fallback with a verified local jurisdiction profile before relying on the draft.
