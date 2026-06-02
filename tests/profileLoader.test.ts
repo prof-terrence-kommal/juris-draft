@@ -1,7 +1,12 @@
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
-import { listProfileIds, loadJurisdictionProfile, loadToneProfile } from '../src/profileLoader.js';
+import {
+  listProfileIds,
+  listRecipeIds,
+  loadJurisdictionProfile,
+  loadToneProfile
+} from '../src/profileLoader.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -22,5 +27,10 @@ describe('profiles', () => {
   it('lists available profiles', () => {
     expect(listProfileIds('jurisdictions', rootDir)).toContain('ZA');
     expect(listProfileIds('tones', rootDir)).toContain('formal');
+  });
+
+  it('lists available recipes', () => {
+    expect(listRecipeIds(rootDir)).toContain('demand-letter');
+    expect(listRecipeIds(rootDir)).toContain('settlement-proposal');
   });
 });

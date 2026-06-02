@@ -82,6 +82,7 @@ List available profiles:
 ```bash
 npm run dev -- list jurisdictions
 npm run dev -- list tones
+npm run dev -- list recipes
 ```
 
 ## Example command
@@ -218,4 +219,3 @@ Current and planned maintainer workflows include:
 - keeping the project model-agnostic and provider-neutral.
 
 Contributors are encouraged to open focused issues or pull requests that improve one clear part of the framework.
-

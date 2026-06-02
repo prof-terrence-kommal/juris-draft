@@ -39,7 +39,10 @@ export function loadToneProfile(id: string, rootDir = process.cwd()): ToneProfil
   return ToneProfileSchema.parse(readYamlFile(filePath));
 }
 
-export function listProfileIds(folder: 'jurisdictions' | 'tones', rootDir = process.cwd()): string[] {
+export function listProfileIds(
+  folder: 'jurisdictions' | 'tones',
+  rootDir = process.cwd()
+): string[] {
   const dir = path.join(rootDir, folder);
 
   if (!fs.existsSync(dir)) return [];
@@ -48,5 +51,17 @@ export function listProfileIds(folder: 'jurisdictions' | 'tones', rootDir = proc
     .readdirSync(dir)
     .filter((file) => file.endsWith('.yml'))
     .map((file) => file.replace(/\.yml$/, ''))
+    .sort();
+}
+
+export function listRecipeIds(rootDir = process.cwd()): string[] {
+  const dir = path.join(rootDir, 'recipes');
+
+  if (!fs.existsSync(dir)) return [];
+
+  return fs
+    .readdirSync(dir)
+    .filter((file) => file.endsWith('.md'))
+    .map((file) => file.replace(/\.md$/, ''))
     .sort();
 }
