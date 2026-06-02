@@ -168,6 +168,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and [ROADMAP.md](ROADMAP.md).
 
 MIT
 
+
+<p align="center">
+  <img src="docs/assets/simplemaps-africa.svg" alt="Africa map from SimpleMaps" width="45%">
+</p>
+
 ## Why Africa and the Global South matter
 
 Legal AI tooling is often designed around wealthy jurisdictions, large firms, proprietary platforms, and high-resource deployment environments.
