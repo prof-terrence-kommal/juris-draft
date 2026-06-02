@@ -13,7 +13,9 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "tsc --noEmit",
-    "demo": "npm run draft -- --type demand-letter --jurisdiction ZA --tone assertive --facts examples/late-payment.za.json --output outputs/demo-late-payment.za.md"
+    "demo": "npm run draft -- --type demand-letter --jurisdiction ZA --tone assertive --facts examples/late-payment.za.json --output outputs/demo-late-payment.za.md",
+    "sources": "tsx src/sourceCli.ts",
+    "sources:demo": "npm run sources -- --jurisdiction ZA --query \"mora interest late payment demand letter\" --output outputs/za-legal-source-assistant.md"
   },
   "keywords": [
     "legaltech",
