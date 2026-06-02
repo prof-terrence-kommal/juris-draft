@@ -139,6 +139,24 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and [ROADMAP.md](ROADMAP.md).
 
 MIT
 
+## Why Africa and the Global South matter
+
+Legal AI tooling is often designed around wealthy jurisdictions, large firms, proprietary platforms, and high-resource deployment environments.
+
+Juris Draft takes a different starting point: open, model-agnostic LegalTech infrastructure that can be inspected, adapted, localised, and governed by communities working in under-resourced or jurisdictionally complex environments.
+
+For African and Global South legal contexts, responsible legal AI requires more than generic drafting prompts. It needs:
+
+- jurisdiction-aware profiles;
+- clear human-review checkpoints;
+- fictional and safe public examples;
+- model-agnostic workflows that can support cloud, local, or hybrid AI deployments;
+- transparent drafting recipes that can be reviewed and improved;
+- safeguards against treating generated text as legal advice;
+- contribution pathways for local terminology, legal culture, language, and practice norms.
+
+The project starts with simple drafting packets, but its deeper purpose is to make legal AI infrastructure more open, reviewable, and adaptable beyond the highest-resource legal markets.
+
 ## Maintainer workflows
 
 Juris Draft is maintained through public issues, pull requests, release tags, CI checks, and contribution templates.
