@@ -1,8 +1,25 @@
 # Juris Draft
 
-<p align="center">
-  <img src="docs/assets/africa-legaltech-context.svg" alt="Open LegalTech for African and Global South contexts" width="100%">
-</p>
+<table>
+<tr>
+<td width="58%" valign="middle">
+
+## Open LegalTech for African and Global South contexts
+
+**Model-agnostic · jurisdiction-aware · human-review-first**
+
+Juris Draft starts from South African LegalTech needs while remaining adaptable across jurisdictions. It supports structured drafting packets, public legal source-assist workflows, and human review in under-resourced or jurisdictionally complex environments.
+
+**Core themes:** localisation · access · legal source checking · responsible human review
+
+</td>
+<td width="42%" align="center" valign="middle">
+  <img src="docs/assets/simplemaps-africa.svg" alt="Africa map" width="80%">
+  <br>
+  <sub>South Africa is the starting jurisdiction for the source-assist workflow.</sub>
+</td>
+</tr>
+</table>
 
 
 **Model-agnostic legal drafting infrastructure for jurisdiction-aware, tone-controlled first drafts.**
