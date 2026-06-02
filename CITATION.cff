@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use Juris Draft in academic, professional, or open-source work, please cite it using the metadata below."
+title: "Juris Draft"
+abstract: "A model-agnostic LegalTech framework for jurisdiction-aware, tone-controlled legal drafting workflows with human-review guardrails."
+authors:
+  - family-names: "Kommal"
+    given-names: "Terrence"
+repository-code: "https://github.com/prof-terrence-kommal/juris-draft"
+url: "https://github.com/prof-terrence-kommal/juris-draft"
+license: "MIT"
+version: "0.1.1"
+date-released: "2026-06-02"
+keywords:
+  - LegalTech
+  - legal drafting
+  - model-agnostic AI
+  - local LLMs
+  - AI governance
+  - human-in-the-loop
+  - open source
