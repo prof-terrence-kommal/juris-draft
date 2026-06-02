@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { Command } from 'commander';
 import { createDraft } from './draftEngine.js';
-import { listProfileIds } from './profileLoader.js';
+import { listProfileIds, listRecipeIds } from './profileLoader.js';
 
 const program = new Command();
 
@@ -48,10 +48,17 @@ program.command('create')
 
 program.command('list')
   .description('List available jurisdictions, tones, or recipes.')
-  .argument('<kind>', 'jurisdictions | tones')
+  .argument('<kind>', 'jurisdictions | tones | recipes')
   .action((kind) => {
+    if (kind === 'recipes') {
+      for (const id of listRecipeIds()) {
+        console.log(id);
+      }
+      return;
+    }
+
     if (kind !== 'jurisdictions' && kind !== 'tones') {
-      console.error('Expected kind to be jurisdictions or tones.');
+      console.error('Expected kind to be jurisdictions, tones, or recipes.');
       process.exit(1);
     }
     for (const id of listProfileIds(kind)) {
